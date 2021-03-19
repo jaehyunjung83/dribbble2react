@@ -1,3 +1,30 @@
+## iBlood app Expo cli로 react-native build(21-03-19 추가)
+
+❍ Expo cli 설치
+```
+npm install -g expo-cli
+```
+
+❍ .expo 파일을 package.json과 동일 위치에 맞추기
+
+❍ package.json과 동일 위치에 npm install
+
+❍ 안 될시
+```
+npm install --legacy-peer-deps
+```
+❍ expo go로 아이폰 device에서 보려고 할 때 
+- 그냥 하면 "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+버전 낮아서 실행 안 됨
+- package.json에서 버전만 고치고 npm install 해도 계속 충돌 남!!
+```
+expo update
+```
+로 해야 depengencies 맞춰서 install 되고 package.json 알아서 바뀜!!
+
+
+
+
 # dribbble2react
 We're transforming [Dribbble](https://dribbble.com/) designs to React / React-Native code
 
@@ -19,21 +46,6 @@ Checkout the new React-Native marketplace for ready-to-use UI code [react-ui-kit
 | [Your app](https://github.com/react-ui-kit/dribbble2react/issues/new?assignees=&labels=&template=feature_request.md&title=) | - | Your design | - | ~ hours | :point_left::hammer_and_wrench: |
 
 
-## iBlood app Expo cli로 react-native build(21-03-19 추가)
-
-❍ Expo cli 설치
-```
-npm install -g expo-cli
-```
-
-❍ .expo 파일을 package.json과 동일 위치에 맞추기
-
-❍ package.json과 동일 위치에 npm install
-
-❍ 안 될시
-```
-npm install --legacy-peer-deps
-```
 
 
 
