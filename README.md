@@ -22,17 +22,18 @@ Checkout the new React-Native marketplace for ready-to-use UI code [react-ui-kit
 ## iBlood app Expo cli로 react-native build(21-03-19 추가)
 
 ❍ Expo cli 설치
-'''
+```
 npm install -g expo-cli
-'''
+```
+
 ❍ .expo 파일을 package.json과 동일 위치에 맞추기
 
 ❍ package.json과 동일 위치에 npm install
 
 ❍ 안 될시
-'''
+```
 npm install --legacy-peer-deps
-'''
+```
 
 
 
