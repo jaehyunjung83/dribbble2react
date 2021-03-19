@@ -18,5 +18,23 @@ Checkout the new React-Native marketplace for ready-to-use UI code [react-ui-kit
 | [VPN App](https://project365.design/2018/10/05/day-278-vpn-mobile-app-ui-kit-sketch-freebie/) | [View Snack](https://expo.io/snacks/@react-ui-kit) | <img src="https://project365.design/wp-content/uploads/2018/10/05102018-design.png" width="120" /> | 2 | ~2 hours | :white_check_mark: |
 | [Your app](https://github.com/react-ui-kit/dribbble2react/issues/new?assignees=&labels=&template=feature_request.md&title=) | - | Your design | - | ~ hours | :point_left::hammer_and_wrench: |
 
+
+## iBlood app Expo cli로 react-native build(21-03-19 추가)
+
+❍ Expo cli 설치
+'''
+npm install -g expo-cli
+'''
+❍ .expo 파일을 package.json과 동일 위치에 맞추기
+
+❍ package.json과 동일 위치에 npm install
+
+❍ 안 될시
+'''
+npm install --legacy-peer-deps
+'''
+
+
+
 ## Contributors
 <a href="https://opencollective.com/dribbble2react"><img src="https://opencollective.com/dribbble2react/individuals.svg?width=890"></a>
